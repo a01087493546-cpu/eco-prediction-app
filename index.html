@@ -3,7 +3,7 @@
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>¸ÔÀÌ°ü°è Å½Çè´ë</title>
+  <title>ë¨¹ì´ê´€ê³„ íƒí—˜ëŒ€</title>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{--pine:#183f34;--leaf:#28745a;--ink:#18362e}
@@ -85,108 +85,108 @@
   <div class="app-container">
    <header>
     <div style="display:flex; align-items:center; justify-content:space-between; width:100%;">
-      <button id="home-link" type="button" style="background:none; border:none; font-size:20px; font-extrabold; color:#183f34; font-weight:800; cursor:pointer;">?? ¸ÔÀÌ°ü°è Å½Çè´ë</button>
+      <button id="home-link" type="button" style="background:none; border:none; font-size:20px; font-extrabold; color:#183f34; font-weight:800; cursor:pointer;">?? ë¨¹ì´ê´€ê³„ íƒí—˜ëŒ€</button>
       <div style="display:flex; gap:10px; align-items:center;">
-        <span id="sync-status" style="background:#e9f2dc; color:#183f34; padding:6px 14px; border-radius:999px; font-size:13px; font-weight:700;">?? ½Ç½Ã°£ °øÀ¯ ¸ðµå</span>
-        <span style="background:#e9f2dc; color:#183f34; padding:6px 14px; border-radius:999px; font-size:13px; font-weight:700;">ÃÊµî 4ÇÐ³â °úÇÐ</span>
+        <span id="sync-status" style="background:#e9f2dc; color:#183f34; padding:6px 14px; border-radius:999px; font-size:13px; font-weight:700;">?? ì‹¤ì‹œê°„ ê³µìœ  ëª¨ë“œ</span>
+        <span style="background:#e9f2dc; color:#183f34; padding:6px 14px; border-radius:999px; font-size:13px; font-weight:700;">ì´ˆë“± 4í•™ë…„ ê³¼í•™</span>
       </div>
     </div>
    </header>
    
    <main>
-    <!-- [È­¸é 0] Ã¹ È­¸é -->
+    <!-- [í™”ë©´ 0] ì²« í™”ë©´ -->
     <section id="home" class="screen">
      <div class="hero">
       <div style="max-width:3xl;">
-       <p style="font-size:14px; font-weight:700; letter-spacing:2px; color:#a2d2a0; margin-bottom:12px;">»ýÅÂ°è º¯È­ ¿¹Ãø ¹ßÇ¥±â</p>
-       <h1 style="font-size:36px; font-weight:800; line-height:1.25; margin-bottom:14px;">»ý¹° ÇÏ³ª°¡ »ç¶óÁö¸é »ýÅÂ°è´Â ¾î¶»°Ô µÉ±î¿ä?</h1>
-       <p style="font-size:16px; opacity:0.9; line-height:1.5; max-width:620px; margin-bottom:24px;">½ÇÁ¦ »ý¹° Ä«µå·Î ³ª¸¸ÀÇ ¸ÔÀÌ°è¸¦ ¸¸µé°í, »ý¹° ÇÏ³ª°¡ »ç¶óÁ³À» ¶§ÀÇ º¯È­¸¦ ¿¹ÃøÇÏ¿© Ä£±¸µé°ú °øÀ¯ÇØ º¸¼¼¿ä.</p>
+       <p style="font-size:14px; font-weight:700; letter-spacing:2px; color:#a2d2a0; margin-bottom:12px;">ìƒíƒœê³„ ë³€í™” ì˜ˆì¸¡ ë°œí‘œê¸°</p>
+       <h1 style="font-size:36px; font-weight:800; line-height:1.25; margin-bottom:14px;">ìƒë¬¼ í•˜ë‚˜ê°€ ì‚¬ë¼ì§€ë©´ ìƒíƒœê³„ëŠ” ì–´ë–»ê²Œ ë ê¹Œìš”?</h1>
+       <p style="font-size:16px; opacity:0.9; line-height:1.5; max-width:620px; margin-bottom:24px;">ì‹¤ì œ ìƒë¬¼ ì¹´ë“œë¡œ ë‚˜ë§Œì˜ ë¨¹ì´ê³„ë¥¼ ë§Œë“¤ê³ , ìƒë¬¼ í•˜ë‚˜ê°€ ì‚¬ë¼ì¡Œì„ ë•Œì˜ ë³€í™”ë¥¼ ì˜ˆì¸¡í•˜ì—¬ ì¹œêµ¬ë“¤ê³¼ ê³µìœ í•´ ë³´ì„¸ìš”.</p>
        
        <div style="background:rgba(255,255,255,0.12); border:2px solid rgba(255,255,255,0.25); border-radius:18px; padding:18px; max-width:440px; margin-bottom:20px;">
-        <label for="nickname" style="display:block; font-weight:800; margin-bottom:6px; font-size:15px;">³ªÀÇ ÀÌ¸§ Àû±â</label>
-        <p style="font-size:13px; opacity:0.85; margin-bottom:10px;">È°µ¿À» ½ÃÀÛÇÏ±â Àü¿¡ ÀÌ¸§À» ÀÔ·ÂÇØ ÁÖ¼¼¿ä.</p>
-        <input id="nickname" class="field" style="color:#18362e;" maxlength="30" placeholder="¿¹: 4ÇÐ³â 2¹Ý ±è¹ÎÁØ">
+        <label for="nickname" style="display:block; font-weight:800; margin-bottom:6px; font-size:15px;">ë‚˜ì˜ ì´ë¦„ ì ê¸°</label>
+        <p style="font-size:13px; opacity:0.85; margin-bottom:10px;">í™œë™ì„ ì‹œìž‘í•˜ê¸° ì „ì— ì´ë¦„ì„ ìž…ë ¥í•´ ì£¼ì„¸ìš”.</p>
+        <input id="nickname" class="field" style="color:#18362e;" maxlength="30" placeholder="ì˜ˆ: 4í•™ë…„ 2ë°˜ ê¹€ë¯¼ì¤€">
         <p id="nickname-help-status" style="font-weight:700; color:#ffd166; margin-top:6px; font-size:13px;" role="status"></p>
        </div>
        
        <div style="display:flex; flex-wrap:wrap; gap:12px;">
-        <button id="start-button" type="button" class="pill" style="background:#d9edaa; color:#183f34;">?? È°µ¿ ½ÃÀÛÇÏ±â</button>
-        <button id="home-name-btn" type="button" class="pill" style="background:#fff; color:#183f34;">?? ¸ÔÀÌ°ü°è ÀÌ¸§ Áö¾îº¸±â</button>
-        <button id="home-results" type="button" class="pill" style="background:rgba(255,255,255,0.2); color:white; border:2px solid rgba(255,255,255,0.4);">?? Ä£±¸µéÀÇ °á°ú º¸±â</button>
+        <button id="start-button" type="button" class="pill" style="background:#d9edaa; color:#183f34;">?? í™œë™ ì‹œìž‘í•˜ê¸°</button>
+        <button id="home-name-btn" type="button" class="pill" style="background:#fff; color:#183f34;">?? ë¨¹ì´ê´€ê³„ ì´ë¦„ ì§€ì–´ë³´ê¸°</button>
+        <button id="home-results" type="button" class="pill" style="background:rgba(255,255,255,0.2); color:white; border:2px solid rgba(255,255,255,0.4);">?? ì¹œêµ¬ë“¤ì˜ ê²°ê³¼ ë³´ê¸°</button>
        </div>
       </div>
      </div>
     </section>
 
-    <!-- [È­¸é N] ¸ÔÀÌ°ü°è ÀÌ¸§ Áö¾îº¸±â (¸àÆ¼¹ÌÅÍ ½ºÅ¸ÀÏ) -->
+    <!-- [í™”ë©´ N] ë¨¹ì´ê´€ê³„ ì´ë¦„ ì§€ì–´ë³´ê¸° (ë©˜í‹°ë¯¸í„° ìŠ¤íƒ€ì¼) -->
     <section id="naming" class="screen" hidden>
      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
-       <button id="name-back" class="pill outline" type="button">?? Ã³À½À¸·Î</button>
-       <span style="background:#e8f0dd; color:#183f34; padding:6px 14px; border-radius:999px; font-weight:700; font-size:13px;">¸àÆ¼¹ÌÅÍ È°µ¿</span>
+       <button id="name-back" class="pill outline" type="button">?? ì²˜ìŒìœ¼ë¡œ</button>
+       <span style="background:#e8f0dd; color:#183f34; padding:6px 14px; border-radius:999px; font-weight:700; font-size:13px;">ë©˜í‹°ë¯¸í„° í™œë™</span>
      </div>
      <div class="panel" style="padding:24px 32px;">
-      <h2 style="font-size:26px; font-weight:800; color:#183f34; margin-bottom:6px;">¸ÔÀÌ°ü°è ÀÌ¸§ Áö¾îº¸±â</h2>
-      <p style="color:#557063; font-size:15px; margin-bottom:18px;">¿ì¸® ¸ðµÒ ¶Ç´Â ³»°¡ »ý°¢ÇÏ´Â ¸ÔÀÌ°ü°èÀÇ ÀÌ¸§À» ÇÑ ´Ü¾î ¶Ç´Â ÂªÀº ¹®ÀåÀ¸·Î Àû¾îº¸¼¼¿ä!</p>
+      <h2 style="font-size:26px; font-weight:800; color:#183f34; margin-bottom:6px;">ë¨¹ì´ê´€ê³„ ì´ë¦„ ì§€ì–´ë³´ê¸°</h2>
+      <p style="color:#557063; font-size:15px; margin-bottom:18px;">ìš°ë¦¬ ëª¨ë‘  ë˜ëŠ” ë‚´ê°€ ìƒê°í•˜ëŠ” ë¨¹ì´ê´€ê³„ì˜ ì´ë¦„ì„ í•œ ë‹¨ì–´ ë˜ëŠ” ì§§ì€ ë¬¸ìž¥ìœ¼ë¡œ ì ì–´ë³´ì„¸ìš”!</p>
       
       <form id="naming-form" style="display:flex; gap:10px; margin-bottom:14px;">
-       <input id="chain-name" class="field" maxlength="40" placeholder="¿¹: ÆòÈ­·Î¿î ½£¼Ó, ³í¹çÀÇ ¸ÔÀÌ°ü°è µî" required>
-       <button id="save-name" class="pill dark" type="submit" style="white-space:nowrap;">Á¦ÃâÇÏ±â</button>
+       <input id="chain-name" class="field" maxlength="40" placeholder="ì˜ˆ: í‰í™”ë¡œìš´ ìˆ²ì†, ë…¼ë°­ì˜ ë¨¹ì´ê´€ê³„ ë“±" required>
+       <button id="save-name" class="pill dark" type="submit" style="white-space:nowrap;">ì œì¶œí•˜ê¸°</button>
       </form>
       <p id="name-message" style="font-weight:700; min-height:22px; margin-bottom:10px; font-size:14px;" role="status" aria-live="polite"></p>
       
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-        <h3 style="font-size:16px; font-weight:800; color:#183f34;">¿ì¸®¹Ý °øÅë ¸ÔÀÌ°ü°è ÀÌ¸§ ¸ðÀ½ (¸¹ÀÌ ÀûÀ»¼ö·Ï Å©°Ô Áß¾Ó¿¡ ¸ð¿©¿ä!)</h3>
-        <span id="name-count" style="font-weight:700; color:#28745a; font-size:14px;" aria-live="polite">0°³ ÀÌ¸§ Á¦ÃâµÊ</span>
+        <h3 style="font-size:16px; font-weight:800; color:#183f34;">ìš°ë¦¬ë°˜ ê³µí†µ ë¨¹ì´ê´€ê³„ ì´ë¦„ ëª¨ìŒ (ë§Žì´ ì ì„ìˆ˜ë¡ í¬ê²Œ ì¤‘ì•™ì— ëª¨ì—¬ìš”!)</h3>
+        <span id="name-count" style="font-weight:700; color:#28745a; font-size:14px;" aria-live="polite">0ê°œ ì´ë¦„ ì œì¶œë¨</span>
       </div>
       
       <div id="name-cloud" class="letter-cloud" aria-live="polite">
-        <div id="name-cloud-empty" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#789284; font-weight:700;">¾ÆÁ÷ Á¦ÃâµÈ ¸ÔÀÌ°ü°è ÀÌ¸§ÀÌ ¾ø¾î¿ä. Ã¹ ¹øÂ°·Î ÀÌ¸§À» Àû¾îº¸¼¼¿ä!</div>
+        <div id="name-cloud-empty" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#789284; font-weight:700;">ì•„ì§ ì œì¶œëœ ë¨¹ì´ê´€ê³„ ì´ë¦„ì´ ì—†ì–´ìš”. ì²« ë²ˆì§¸ë¡œ ì´ë¦„ì„ ì ì–´ë³´ì„¸ìš”!</div>
       </div>
       
       <div id="name-submissions" class="name-submissions" aria-live="polite"></div>
      </div>
     </section>
 
-    <!-- »ó´Ü ´Ü°è Ç¥½Ã ¹Ù -->
-    <div id="steps" class="hidden" style="display:flex; gap:8px; margin-bottom:14px;" aria-label="È°µ¿ ÁøÇà ´Ü°è">
-      <span class="step" data-step="build">01 ¡¤ ¸ÔÀÌ°ü°è ¸¸µé±â</span> 
-      <span class="step" data-step="remove">02 ¡¤ »ý¹° »ç¶óÁö°Ô ÇÏ±â</span> 
-      <span class="step" data-step="predict">03 ¡¤ »ýÅÂ°è º¯È­ ¿¹Ãø</span>
+    <!-- ìƒë‹¨ ë‹¨ê³„ í‘œì‹œ ë°” -->
+    <div id="steps" class="hidden" style="display:flex; gap:8px; margin-bottom:14px;" aria-label="í™œë™ ì§„í–‰ ë‹¨ê³„">
+      <span class="step" data-step="build">01 Â· ë¨¹ì´ê´€ê³„ ë§Œë“¤ê¸°</span> 
+      <span class="step" data-step="remove">02 Â· ìƒë¬¼ ì‚¬ë¼ì§€ê²Œ í•˜ê¸°</span> 
+      <span class="step" data-step="predict">03 Â· ìƒíƒœê³„ ë³€í™” ì˜ˆì¸¡</span>
     </div>
 
-    <!-- [È­¸é 1] ¸ÔÀÌ°ü°è ¸¸µé±â -->
+    <!-- [í™”ë©´ 1] ë¨¹ì´ê´€ê³„ ë§Œë“¤ê¸° -->
     <section id="build" class="screen" hidden>
      <div style="margin-bottom:12px;">
-      <span style="font-size:12px; font-weight:800; color:#28745a; background:#e9f2dc; padding:4px 10px; border-radius:6px;">È°µ¿ 1 & 2</span>
-      <h2 style="font-size:24px; font-weight:800; margin-top:4px; margin-bottom:2px;">³ª¸¸ÀÇ ¸ÔÀÌ°ü°è ¸¸µé±â (ÃÖ´ë 4°³)</h2>
-      <p style="color:#557063; font-size:14px;">»ý¹°µéÀÌ ¹«¾ùÀ» ¸Ô°í »ì¾Æ°¡´ÂÁö »ý°¢ÇÏ¸ç Ä«µå¸¦ ´­·¯ ¿¬°áÇÏ°í, È­»ìÇ¥¿Í »èÁ¦ ¹öÆ°À¸·Î ¼öÁ¤ÇÏ¼¼¿ä.</p>
+      <span style="font-size:12px; font-weight:800; color:#28745a; background:#e9f2dc; padding:4px 10px; border-radius:6px;">í™œë™ 1 & 2</span>
+      <h2 style="font-size:24px; font-weight:800; margin-top:4px; margin-bottom:2px;">ë‚˜ë§Œì˜ ë¨¹ì´ê´€ê³„ ë§Œë“¤ê¸° (ìµœëŒ€ 4ê°œ)</h2>
+      <p style="color:#557063; font-size:14px;">ìƒë¬¼ë“¤ì´ ë¬´ì—‡ì„ ë¨¹ê³  ì‚´ì•„ê°€ëŠ”ì§€ ìƒê°í•˜ë©° ì¹´ë“œë¥¼ ëˆŒëŸ¬ ì—°ê²°í•˜ê³ , í™”ì‚´í‘œì™€ ì‚­ì œ ë²„íŠ¼ìœ¼ë¡œ ìˆ˜ì •í•˜ì„¸ìš”.</p>
      </div>
      
      <div class="panel" style="padding:16px; margin-bottom:12px;">
-      <h3 style="font-size:15px; font-weight:800; margin-bottom:8px; color:#183f34;">¼±ÅÃ °¡´ÉÇÑ »ý¹° Ä«µå (Å¬¸¯ÇÏ¿© Ãß°¡)</h3>
+      <h3 style="font-size:15px; font-weight:800; margin-bottom:8px; color:#183f34;">ì„ íƒ ê°€ëŠ¥í•œ ìƒë¬¼ ì¹´ë“œ (í´ë¦­í•˜ì—¬ ì¶”ê°€)</h3>
       <div id="organism-gallery" class="organism-grid">
-       <button type="button" data-organism="Ç®" class="organism-option"><span class="emoji">??</span><span class="name">Ç®</span></button>
-       <button type="button" data-organism="º­" class="organism-option"><span class="emoji">??</span><span class="name">º­</span></button>
-       <button type="button" data-organism="¸Þ¶Ñ±â" class="organism-option"><span class="emoji">??</span><span class="name">¸Þ¶Ñ±â</span></button>
-       <button type="button" data-organism="³ªºñ" class="organism-option"><span class="emoji">??</span><span class="name">³ªºñ</span></button>
-       <button type="button" data-organism="¾Ö¹ú·¹" class="organism-option"><span class="emoji">??</span><span class="name">¾Ö¹ú·¹</span></button>
-       <button type="button" data-organism="°³±¸¸®" class="organism-option"><span class="emoji">??</span><span class="name">°³±¸¸®</span></button>
-       <button type="button" data-organism="Âü»õ" class="organism-option"><span class="emoji">??</span><span class="name">Âü»õ</span></button>
-       <button type="button" data-organism="´Ù¶÷Áã" class="organism-option"><span class="emoji">???</span><span class="name">´Ù¶÷Áã</span></button>
-       <button type="button" data-organism="¹ì" class="organism-option"><span class="emoji">??</span><span class="name">¹ì</span></button>
-       <button type="button" data-organism="¸Å" class="organism-option"><span class="emoji">??</span><span class="name">¸Å</span></button>
-       <button type="button" data-organism="ºÎ¾ûÀÌ" class="organism-option"><span class="emoji">??</span><span class="name">ºÎ¾ûÀÌ</span></button>
-       <button type="button" data-organism="Áö··ÀÌ" class="organism-option"><span class="emoji">??</span><span class="name">Áö··ÀÌ</span></button>
-       <button type="button" data-organism="´ÞÆØÀÌ" class="organism-option"><span class="emoji">??</span><span class="name">´ÞÆØÀÌ</span></button>
-       <button type="button" data-organism="Áã" class="organism-option"><span class="emoji">??</span><span class="name">Áã</span></button>
-       <button type="button" data-organism="¹°°í±â" class="organism-option"><span class="emoji">??</span><span class="name">¹°°í±â</span></button>
-       <button type="button" data-organism="¿Ö°¡¸®" class="organism-option"><span class="emoji">??</span><span class="name">¿Ö°¡¸®</span></button>
+       <button type="button" data-organism="í’€" class="organism-option"><span class="emoji">??</span><span class="name">í’€</span></button>
+       <button type="button" data-organism="ë²¼" class="organism-option"><span class="emoji">??</span><span class="name">ë²¼</span></button>
+       <button type="button" data-organism="ë©”ëšœê¸°" class="organism-option"><span class="emoji">??</span><span class="name">ë©”ëšœê¸°</span></button>
+       <button type="button" data-organism="ë‚˜ë¹„" class="organism-option"><span class="emoji">??</span><span class="name">ë‚˜ë¹„</span></button>
+       <button type="button" data-organism="ì• ë²Œë ˆ" class="organism-option"><span class="emoji">??</span><span class="name">ì• ë²Œë ˆ</span></button>
+       <button type="button" data-organism="ê°œêµ¬ë¦¬" class="organism-option"><span class="emoji">??</span><span class="name">ê°œêµ¬ë¦¬</span></button>
+       <button type="button" data-organism="ì°¸ìƒˆ" class="organism-option"><span class="emoji">??</span><span class="name">ì°¸ìƒˆ</span></button>
+       <button type="button" data-organism="ë‹¤ëžŒì¥" class="organism-option"><span class="emoji">???</span><span class="name">ë‹¤ëžŒì¥</span></button>
+       <button type="button" data-organism="ë±€" class="organism-option"><span class="emoji">??</span><span class="name">ë±€</span></button>
+       <button type="button" data-organism="ë§¤" class="organism-option"><span class="emoji">??</span><span class="name">ë§¤</span></button>
+       <button type="button" data-organism="ë¶€ì—‰ì´" class="organism-option"><span class="emoji">??</span><span class="name">ë¶€ì—‰ì´</span></button>
+       <button type="button" data-organism="ì§€ë ì´" class="organism-option"><span class="emoji">??</span><span class="name">ì§€ë ì´</span></button>
+       <button type="button" data-organism="ë‹¬íŒ½ì´" class="organism-option"><span class="emoji">??</span><span class="name">ë‹¬íŒ½ì´</span></button>
+       <button type="button" data-organism="ì¥" class="organism-option"><span class="emoji">??</span><span class="name">ì¥</span></button>
+       <button type="button" data-organism="ë¬¼ê³ ê¸°" class="organism-option"><span class="emoji">??</span><span class="name">ë¬¼ê³ ê¸°</span></button>
+       <button type="button" data-organism="ì™œê°€ë¦¬" class="organism-option"><span class="emoji">??</span><span class="name">ì™œê°€ë¦¬</span></button>
       </div>
      </div>
      
      <div class="panel" style="padding:16px; margin-bottom:14px; flex:1; display:flex; flex-direction:column;">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-       <h3 style="font-size:15px; font-weight:800; color:#183f34;">³ªÀÇ ¸ÔÀÌ°ü°è ÀÛ¾÷´ë (È­»ìÇ¥: ¸ÔÀÌ ? ¸Ô´Â »ý¹°)</h3>
+       <h3 style="font-size:15px; font-weight:800; color:#183f34;">ë‚˜ì˜ ë¨¹ì´ê´€ê³„ ìž‘ì—…ëŒ€ (í™”ì‚´í‘œ: ë¨¹ì´ ? ë¨¹ëŠ” ìƒë¬¼)</h3>
        <span id="chain-count" style="font-weight:800; color:#28745a;" aria-live="polite">0 / 4</span>
       </div>
       <div id="build-chain" class="chain" style="flex:1; border:2px dashed #bcccb5; border-radius:16px; padding:16px; min-height:160px; background:#fafdf8;" aria-live="polite"></div>
@@ -194,18 +194,18 @@
      </div>
      
      <div style="display:flex; gap:10px;">
-      <button id="build-back" class="pill outline" type="button">Ã³À½À¸·Î</button> 
-      <button id="reset-chain" class="pill soft" type="button">ÀüÃ¼ Áö¿ì±â</button> 
-      <button id="build-next" class="pill dark" style="margin-left:auto;" type="button">»ý¹° »ç¶óÁö°Ô ÇÏ±â (´ÙÀ½) ?</button>
+      <button id="build-back" class="pill outline" type="button">ì²˜ìŒìœ¼ë¡œ</button> 
+      <button id="reset-chain" class="pill soft" type="button">ì „ì²´ ì§€ìš°ê¸°</button> 
+      <button id="build-next" class="pill dark" style="margin-left:auto;" type="button">ìƒë¬¼ ì‚¬ë¼ì§€ê²Œ í•˜ê¸° (ë‹¤ìŒ) ?</button>
      </div>
     </section>
 
-    <!-- [È­¸é 2] »ý¹° »ç¶óÁö°Ô ÇÏ±â -->
+    <!-- [í™”ë©´ 2] ìƒë¬¼ ì‚¬ë¼ì§€ê²Œ í•˜ê¸° -->
     <section id="remove" class="screen" hidden>
      <div style="margin-bottom:14px;">
-      <span style="font-size:12px; font-weight:800; color:#28745a; background:#e9f2dc; padding:4px 10px; border-radius:6px;">È°µ¿ 2</span>
-      <h2 style="font-size:24px; font-weight:800; margin-top:4px; margin-bottom:2px;">¸¸¾à »ý¹° ÇÏ³ª°¡ »ç¶óÁø´Ù¸é?</h2>
-      <p style="color:#557063; font-size:14px;">³»°¡ ¸¸µç ¸ÔÀÌ°ü°è¿¡¼­ »ç¶óÁö°Ô ÇÒ »ý¹° Ä«µå¸¦ Å¬¸¯ÇØ º¸¼¼¿ä.</p>
+      <span style="font-size:12px; font-weight:800; color:#28745a; background:#e9f2dc; padding:4px 10px; border-radius:6px;">í™œë™ 2</span>
+      <h2 style="font-size:24px; font-weight:800; margin-top:4px; margin-bottom:2px;">ë§Œì•½ ìƒë¬¼ í•˜ë‚˜ê°€ ì‚¬ë¼ì§„ë‹¤ë©´?</h2>
+      <p style="color:#557063; font-size:14px;">ë‚´ê°€ ë§Œë“  ë¨¹ì´ê´€ê³„ì—ì„œ ì‚¬ë¼ì§€ê²Œ í•  ìƒë¬¼ ì¹´ë“œë¥¼ í´ë¦­í•´ ë³´ì„¸ìš”.</p>
      </div>
      
      <div class="panel" style="padding:24px; flex:1; display:flex; flex-direction:column; justify-content:center; align-items:center; margin-bottom:14px;">
@@ -214,76 +214,76 @@
      </div>
      
      <div style="display:flex; gap:10px;">
-      <button id="remove-back" class="pill outline" type="button">ÀÌÀü ´Ü°è</button> 
-      <button id="choose-again" class="pill soft" type="button">´Ù½Ã ¼±ÅÃÇÏ±â</button> 
-      <button id="remove-next" class="pill dark" style="margin-left:auto;" type="button">»ýÅÂ°è º¯È­ ¿¹ÃøÇÏ±â (´ÙÀ½) ?</button>
+      <button id="remove-back" class="pill outline" type="button">ì´ì „ ë‹¨ê³„</button> 
+      <button id="choose-again" class="pill soft" type="button">ë‹¤ì‹œ ì„ íƒí•˜ê¸°</button> 
+      <button id="remove-next" class="pill dark" style="margin-left:auto;" type="button">ìƒíƒœê³„ ë³€í™” ì˜ˆì¸¡í•˜ê¸° (ë‹¤ìŒ) ?</button>
      </div>
     </section>
 
-    <!-- [È­¸é 3] »ýÅÂ°è º¯È­ ¿¹Ãø -->
+    <!-- [í™”ë©´ 3] ìƒíƒœê³„ ë³€í™” ì˜ˆì¸¡ -->
     <section id="predict" class="screen" hidden>
      <div style="margin-bottom:10px;">
-      <span style="font-size:12px; font-weight:800; color:#28745a; background:#e9f2dc; padding:4px 10px; border-radius:6px;">È°µ¿ 3</span>
-      <h2 style="font-size:24px; font-weight:800; margin-top:4px; margin-bottom:2px;">»ýÅÂ°è º¯È­¸¦ ¿¹ÃøÇØ¿ä</h2>
+      <span style="font-size:12px; font-weight:800; color:#28745a; background:#e9f2dc; padding:4px 10px; border-radius:6px;">í™œë™ 3</span>
+      <h2 style="font-size:24px; font-weight:800; margin-top:4px; margin-bottom:2px;">ìƒíƒœê³„ ë³€í™”ë¥¼ ì˜ˆì¸¡í•´ìš”</h2>
      </div>
      
      <form id="prediction-form" style="display:flex; flex-direction:column; flex:1;" novalidate>
       <div style="display:grid; grid-template-columns: 1fr 1.3fr; gap:16px; flex:1; margin-bottom:12px;">
         <div class="panel" style="padding:18px;">
-         <h3 style="font-size:15px; font-weight:800; margin-bottom:6px; color:#183f34;">³ªÀÇ ¸ÔÀÌ°ü°è ±¸Á¶</h3>
+         <h3 style="font-size:15px; font-weight:800; margin-bottom:6px; color:#183f34;">ë‚˜ì˜ ë¨¹ì´ê´€ê³„ êµ¬ì¡°</h3>
          <p id="nickname-preview" style="font-weight:800; color:#28745a; font-size:13px; margin-bottom:10px;"></p>
          <div id="predict-chain" class="chain mini-chain" style="margin-bottom:14px;"></div>
          
-         <div style="font-size:14px; font-weight:800; color:#183f34; margin-bottom:4px;">1. ¾î¶² »ý¹°ÀÌ »ç¶óÁ³³ª¿ä?</div>
+         <div style="font-size:14px; font-weight:800; color:#183f34; margin-bottom:4px;">1. ì–´ë–¤ ìƒë¬¼ì´ ì‚¬ë¼ì¡Œë‚˜ìš”?</div>
          <p id="predict-removed" style="font-weight:800; color:#a54c3e; font-size:15px; margin-bottom:14px;"></p>
          
-         <div style="font-size:14px; font-weight:800; color:#183f34; margin-bottom:4px;">2. °¡Àå Å« ¿µÇâÀ» ¹ÞÀ» »ý¹° (º¹¼ö ¼±ÅÃ)</div>
-         <div id="affected-options" style="display:flex; flex-wrap:wrap; gap:6px; margin-top:4px;" role="group" aria-label="¿µÇâÀ» ¹ÞÀ» »ý¹° ¼±ÅÃ"></div>
+         <div style="font-size:14px; font-weight:800; color:#183f34; margin-bottom:4px;">2. ê°€ìž¥ í° ì˜í–¥ì„ ë°›ì„ ìƒë¬¼ (ë³µìˆ˜ ì„ íƒ)</div>
+         <div id="affected-options" style="display:flex; flex-wrap:wrap; gap:6px; margin-top:4px;" role="group" aria-label="ì˜í–¥ì„ ë°›ì„ ìƒë¬¼ ì„ íƒ"></div>
         </div>
         
         <div class="panel" style="padding:18px; display:flex; flex-direction:column; justify-content:space-between;">
          <div>
-           <label for="prediction" style="display:block; font-size:14px; font-weight:800; color:#183f34; margin-bottom:4px;">3. ¾î¶² ÀÏÀÌ ÀÏ¾î³¯ °Í °°³ª¿ä?</label>
-           <textarea id="prediction" class="field" style="margin-bottom:12px;" maxlength="1000" placeholder="¿¹: ¸Þ¶Ñ±âÀÇ ¸ÔÀÌ°¡ ÁÙ¾îµé¾î °³±¸¸®µµ »ì±â ¾î·Á¿öÁú °Í °°¾Æ¿ä." required></textarea>
+           <label for="prediction" style="display:block; font-size:14px; font-weight:800; color:#183f34; margin-bottom:4px;">3. ì–´ë–¤ ì¼ì´ ì¼ì–´ë‚  ê²ƒ ê°™ë‚˜ìš”?</label>
+           <textarea id="prediction" class="field" style="margin-bottom:12px;" maxlength="1000" placeholder="ì˜ˆ: ë©”ëšœê¸°ì˜ ë¨¹ì´ê°€ ì¤„ì–´ë“¤ì–´ ê°œêµ¬ë¦¬ë„ ì‚´ê¸° ì–´ë ¤ì›Œì§ˆ ê²ƒ ê°™ì•„ìš”." required></textarea>
            
-           <label for="reason" style="display:block; font-size:14px; font-weight:800; color:#183f34; margin-bottom:4px;">4. ±×·¸°Ô »ý°¢ÇÑ ±î´ßÀº ¹«¾ùÀÎ°¡¿ä?</label>
-           <textarea id="reason" class="field" maxlength="1000" placeholder="¿¹: »ý¹°µéÀº ¼­·Î ¸Ô°í ¸ÔÈ÷´Â °ü°è·Î ±ä¹ÐÇÏ°Ô ¿¬°áµÇ¾î ÀÖ±â ¶§¹®ÀÔ´Ï´Ù." required></textarea>
+           <label for="reason" style="display:block; font-size:14px; font-weight:800; color:#183f34; margin-bottom:4px;">4. ê·¸ë ‡ê²Œ ìƒê°í•œ ê¹Œë‹­ì€ ë¬´ì—‡ì¸ê°€ìš”?</label>
+           <textarea id="reason" class="field" maxlength="1000" placeholder="ì˜ˆ: ìƒë¬¼ë“¤ì€ ì„œë¡œ ë¨¹ê³  ë¨¹ížˆëŠ” ê´€ê³„ë¡œ ê¸´ë°€í•˜ê²Œ ì—°ê²°ë˜ì–´ ìžˆê¸° ë•Œë¬¸ìž…ë‹ˆë‹¤." required></textarea>
          </div>
-         <div id="submit-notice" style="margin-top:10px; font-weight:700; color:#28745a;" hidden>Á¦ÃâÀÌ ¿Ï·áµÇ¾ú¾î¿ä! Ä£±¸µéÀÇ °á°ú È­¸éÀ¸·Î ÀÌµ¿ÇÕ´Ï´Ù.</div>
+         <div id="submit-notice" style="margin-top:10px; font-weight:700; color:#28745a;" hidden>ì œì¶œì´ ì™„ë£Œë˜ì—ˆì–´ìš”! ì¹œêµ¬ë“¤ì˜ ê²°ê³¼ í™”ë©´ìœ¼ë¡œ ì´ë™í•©ë‹ˆë‹¤.</div>
         </div>
       </div>
       
       <p id="submit-message" style="margin-bottom:8px; font-weight:800; color:#a54c3e; min-height:20px;" role="status" aria-live="polite"></p>
       
       <div style="display:flex; gap:10px;">
-       <button id="predict-back" class="pill outline" type="button">ÀÌÀü ´Ü°è</button> 
-       <button id="view-results-after-submit" type="button" class="pill soft" hidden>Ä£±¸µéÀÇ °á°ú º¸·¯ °¡±â ?</button>
-       <button id="submit-result" type="button" class="pill dark" style="margin-left:auto;">°á°ú Á¦ÃâÇÏ±â</button>
+       <button id="predict-back" class="pill outline" type="button">ì´ì „ ë‹¨ê³„</button> 
+       <button id="view-results-after-submit" type="button" class="pill soft" hidden>ì¹œêµ¬ë“¤ì˜ ê²°ê³¼ ë³´ëŸ¬ ê°€ê¸° ?</button>
+       <button id="submit-result" type="button" class="pill dark" style="margin-left:auto;">ê²°ê³¼ ì œì¶œí•˜ê¸°</button>
       </div>
      </form>
     </section>
 
-    <!-- [È­¸é 4] Ä£±¸µéÀÇ °á°ú ÇÔ²² º¸±â -->
+    <!-- [í™”ë©´ 4] ì¹œêµ¬ë“¤ì˜ ê²°ê³¼ í•¨ê»˜ ë³´ê¸° -->
     <section id="results" class="screen" hidden>
      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
       <div>
-       <span style="font-size:12px; font-weight:800; color:#28745a; background:#e9f2dc; padding:4px 10px; border-radius:6px;">È°µ¿ 4</span>
-       <h2 style="font-size:24px; font-weight:800; margin-top:4px;">Ä£±¸µéÀÇ ¿¹Ãø °á°ú ÇÔ²² º¸±â</h2>
+       <span style="font-size:12px; font-weight:800; color:#28745a; background:#e9f2dc; padding:4px 10px; border-radius:6px;">í™œë™ 4</span>
+       <h2 style="font-size:24px; font-weight:800; margin-top:4px;">ì¹œêµ¬ë“¤ì˜ ì˜ˆì¸¡ ê²°ê³¼ í•¨ê»˜ ë³´ê¸°</h2>
       </div>
-      <button id="results-home" class="pill outline" type="button">?? Ã³À½À¸·Î µ¹¾Æ°¡±â</button>
+      <button id="results-home" class="pill outline" type="button">?? ì²˜ìŒìœ¼ë¡œ ëŒì•„ê°€ê¸°</button>
      </div>
      
-     <p id="results-count" style="font-weight:800; color:#28745a; margin-bottom:12px;" aria-live="polite">0°³ÀÇ Á¦Ãâ °á°ú</p>
-     <p id="results-empty" class="panel" style="padding:32px; text-align:center; color:#557063; font-weight:700;" hidden>¾ÆÁ÷ Á¦ÃâµÈ Ä£±¸µéÀÇ °á°ú°¡ ¾ø¾î¿ä. Ã¹ ¹øÂ°·Î °á°ú¸¦ Á¦ÃâÇØ º¸¼¼¿ä!</p>
+     <p id="results-count" style="font-weight:800; color:#28745a; margin-bottom:12px;" aria-live="polite">0ê°œì˜ ì œì¶œ ê²°ê³¼</p>
+     <p id="results-empty" class="panel" style="padding:32px; text-align:center; color:#557063; font-weight:700;" hidden>ì•„ì§ ì œì¶œëœ ì¹œêµ¬ë“¤ì˜ ê²°ê³¼ê°€ ì—†ì–´ìš”. ì²« ë²ˆì§¸ë¡œ ê²°ê³¼ë¥¼ ì œì¶œí•´ ë³´ì„¸ìš”!</p>
      
      <div id="results-list" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:16px; overflow-y:auto; flex:1; padding-bottom:10px;"></div>
     </section>
 
-    <!-- [È­¸é 5] ÀüÃ¼ È­¸é ¹ßÇ¥ ¸ðµå -->
+    <!-- [í™”ë©´ 5] ì „ì²´ í™”ë©´ ë°œí‘œ ëª¨ë“œ -->
     <section id="presentation" class="screen" hidden>
      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
-      <button id="presentation-back" class="pill outline" type="button">? ÀüÃ¼ °á°ú·Î µ¹¾Æ°¡±â</button> 
-      <span style="background:#e9f2dc; color:#183f34; padding:6px 16px; border-radius:999px; font-weight:800;">¹ßÇ¥ È­¸é ¸ðµå</span>
+      <button id="presentation-back" class="pill outline" type="button">? ì „ì²´ ê²°ê³¼ë¡œ ëŒì•„ê°€ê¸°</button> 
+      <span style="background:#e9f2dc; color:#183f34; padding:6px 16px; border-radius:999px; font-weight:800;">ë°œí‘œ í™”ë©´ ëª¨ë“œ</span>
      </div>
      
      <article class="panel" style="padding:32px; flex:1; display:flex; flex-direction:column; justify-content:center;">
@@ -294,19 +294,19 @@
       
       <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px; border-top:2px solid #e2ecd9; padding-top:20px;">
        <div>
-        <h3 style="font-size:14px; font-weight:800; color:#789284; margin-bottom:6px;">»ç¶óÁø »ý¹°</h3>
+        <h3 style="font-size:14px; font-weight:800; color:#789284; margin-bottom:6px;">ì‚¬ë¼ì§„ ìƒë¬¼</h3>
         <p id="presentation-removed" style="font-size:18px; font-weight:800; color:#a54c3e;"></p>
        </div>
        <div>
-        <h3 style="font-size:14px; font-weight:800; color:#789284; margin-bottom:6px;">°¡Àå Å« ¿µÇâÀ» ¹ÞÀ» »ý¹°</h3>
+        <h3 style="font-size:14px; font-weight:800; color:#789284; margin-bottom:6px;">ê°€ìž¥ í° ì˜í–¥ì„ ë°›ì„ ìƒë¬¼</h3>
         <p id="presentation-affected" style="font-size:16px; font-weight:700; color:#183f34;" class="result-copy"></p>
        </div>
        <div>
-        <h3 style="font-size:14px; font-weight:800; color:#789284; margin-bottom:6px;">¿¹»óÇÑ »ýÅÂ°è º¯È­</h3>
+        <h3 style="font-size:14px; font-weight:800; color:#789284; margin-bottom:6px;">ì˜ˆìƒí•œ ìƒíƒœê³„ ë³€í™”</h3>
         <p id="presentation-prediction" style="font-size:16px; font-weight:700; color:#183f34;" class="result-copy"></p>
        </div>
        <div>
-        <h3 style="font-size:14px; font-weight:800; color:#789284; margin-bottom:6px;">±×·¸°Ô »ý°¢ÇÑ ±î´ß</h3>
+        <h3 style="font-size:14px; font-weight:800; color:#789284; margin-bottom:6px;">ê·¸ë ‡ê²Œ ìƒê°í•œ ê¹Œë‹­</h3>
         <p id="presentation-reason" style="font-size:16px; font-weight:700; color:#183f34;" class="result-copy"></p>
        </div>
       </div>
@@ -315,16 +315,16 @@
    </main>
    
    <footer style="text-align:center; padding:12px 0; font-size:13px; color:#789284; border-top:1px solid #e2ecd9; margin-top:10px;">
-    ¸ÔÀÌ °ü°è¸¦ Á÷Á¢ Á¶»çÇÏ°í ÀÚ½ÅÀÇ »ý°¢À» ±Û·Î Ç¥ÇöÇØ º¸¼¼¿ä.
+    ë¨¹ì´ ê´€ê³„ë¥¼ ì§ì ‘ ì¡°ì‚¬í•˜ê³  ìžì‹ ì˜ ìƒê°ì„ ê¸€ë¡œ í‘œí˜„í•´ ë³´ì„¸ìš”.
    </footer>
   </div>
 
   <script>
     const $ = id => document.getElementById(id);
     const emojis = {
-      "Ç®":"??","º­":"??","¸Þ¶Ñ±â":"??","³ªºñ":"??","¾Ö¹ú·¹":"??",
-      "°³±¸¸®":"??","Âü»õ":"??","´Ù¶÷Áã":"???","¹ì":"??","¸Å":"??",
-      "ºÎ¾ûÀÌ":"??","Áö··ÀÌ":"??","´ÞÆØÀÌ":"??","Áã":"??","¹°°í±â":"??","¿Ö°¡¸®":"??"
+      "í’€":"??","ë²¼":"??","ë©”ëšœê¸°":"??","ë‚˜ë¹„":"??","ì• ë²Œë ˆ":"??",
+      "ê°œêµ¬ë¦¬":"??","ì°¸ìƒˆ":"??","ë‹¤ëžŒì¥":"???","ë±€":"??","ë§¤":"??",
+      "ë¶€ì—‰ì´":"??","ì§€ë ì´":"??","ë‹¬íŒ½ì´":"??","ì¥":"??","ë¬¼ê³ ê¸°":"??","ì™œê°€ë¦¬":"??"
     };
     
     const gallery = [...document.querySelectorAll('#organism-gallery [data-organism]')];
@@ -345,7 +345,7 @@
     function requireNickname() {
       const val = $('nickname').value.trim();
       if (val) return true;
-      $('nickname-help-status').textContent = '¸ÕÀú ³ªÀÇ ÀÌ¸§À» Àû¾î ÁÖ¼¼¿ä!';
+      $('nickname-help-status').textContent = 'ë¨¼ì € ë‚˜ì˜ ì´ë¦„ì„ ì ì–´ ì£¼ì„¸ìš”!';
       show('home');
       $('nickname').focus();
       return false;
@@ -363,7 +363,7 @@
         delBtn.type = 'button';
         delBtn.className = 'delete-btn';
         delBtn.textContent = '?';
-        delBtn.title = '»èÁ¦';
+        delBtn.title = 'ì‚­ì œ';
         delBtn.onclick = (e) => {
           e.stopPropagation();
           state.chain.splice(index, 1);
@@ -391,7 +391,7 @@
         
         const leftBtn = document.createElement('button');
         leftBtn.type = 'button';
-        leftBtn.textContent = '¢¸';
+        leftBtn.textContent = 'â—€';
         leftBtn.disabled = index === 0;
         leftBtn.onclick = () => {
           [state.chain[index - 1], state.chain[index]] = [state.chain[index], state.chain[index - 1]];
@@ -400,7 +400,7 @@
         
         const rightBtn = document.createElement('button');
         rightBtn.type = 'button';
-        rightBtn.textContent = '¢º';
+        rightBtn.textContent = 'â–¶';
         rightBtn.disabled = index === total - 1;
         rightBtn.onclick = () => {
           [state.chain[index + 1], state.chain[index]] = [state.chain[index], state.chain[index + 1]];
@@ -413,7 +413,7 @@
 
       if (!editable && screenName() === 'remove') {
         card.style.cursor = 'pointer';
-        card.title = 'Å¬¸¯ÇÏ¿© »ç¶óÁö°Ô ÇÏ±â';
+        card.title = 'í´ë¦­í•˜ì—¬ ì‚¬ë¼ì§€ê²Œ í•˜ê¸°';
         card.onclick = () => {
           state.removed = name;
           $('remove-message').textContent = '';
@@ -460,12 +460,12 @@
     function renderRemove() {
       renderChain($('remove-chain'), state.chain, state.removed, false);
       if (state.removed) {
-        $('remove-message').textContent = `¼±ÅÃµÈ »ç¶óÁø »ý¹°: "${state.removed}" (´ÙÀ½ ´Ü°è·Î ÁøÇàÇÏ¼¼¿ä)`;
+        $('remove-message').textContent = `ì„ íƒëœ ì‚¬ë¼ì§„ ìƒë¬¼: "${state.removed}" (ë‹¤ìŒ ë‹¨ê³„ë¡œ ì§„í–‰í•˜ì„¸ìš”)`;
       }
     }
 
     function renderPredict() {
-      $('nickname-preview').textContent = 'È°µ¿ ÀÌ¸§ ¡¤ ' + $('nickname').value.trim();
+      $('nickname-preview').textContent = 'í™œë™ ì´ë¦„ Â· ' + $('nickname').value.trim();
       renderChain($('predict-chain'), state.chain, state.removed, false);$('predict-removed').textContent = state.removed || '?';
       const options = $('affected-options');
       options.replaceChildren();
@@ -496,10 +496,10 @@
       });
       
       const uniqueWords = Object.keys(counts);
-      countEl.textContent = uniqueWords.length + '°³ ÀÌ¸§ Á¦ÃâµÊ';
+      countEl.textContent = uniqueWords.length + 'ê°œ ì´ë¦„ ì œì¶œë¨';
       empty.style.display = uniqueWords.length === 0 ? 'flex' : 'none';
       
-      // ±âÁ¸ ´Ü¾î ¿¤¸®¸ÕÆ®µé Á¦°Å (empty Á¦¿Ü)
+      // ê¸°ì¡´ ë‹¨ì–´ ì—˜ë¦¬ë¨¼íŠ¸ë“¤ ì œê±° (empty ì œì™¸)
       [...cloud.children].forEach(c => { if(c !== empty) c.remove(); });
       submissions.replaceChildren();
 
@@ -512,14 +512,14 @@
 
       if (uniqueWords.length === 0) return;
 
-      // ¸àÆ¼¹ÌÅÍ ½ºÅ¸ÀÏ ºñÁß¾Ó Ãæµ¹ ¹æÁö ´Ü¾î Å¬¶ó¿ìµå ¹èÄ¡
+      // ë©˜í‹°ë¯¸í„° ìŠ¤íƒ€ì¼ ë¹„ì¤‘ì•™ ì¶©ëŒ ë°©ì§€ ë‹¨ì–´ í´ë¼ìš°ë“œ ë°°ì¹˜
       const placed = [];
       const cloudWidth = cloud.clientWidth || 600;
       const cloudHeight = cloud.clientHeight || 340;
       const centerX = cloudWidth / 2;
       const centerY = cloudHeight / 2;
 
-      // ºóµµ¼ø Á¤·Ä
+      // ë¹ˆë„ìˆœ ì •ë ¬
       uniqueWords.sort((a,b) => counts[b] - counts[a]);
 
       uniqueWords.forEach((word, idx) => {
@@ -528,7 +528,7 @@
         el.className = 'cloud-word';
         el.textContent = word;
         
-        // ºóµµ¿¡ µû¸¥ Å©±â ¹× »ö»ó Á¶Àý
+        // ë¹ˆë„ì— ë”°ë¥¸ í¬ê¸° ë° ìƒ‰ìƒ ì¡°ì ˆ
         const fontSize = Math.min(14 + freq * 8, 36);
         el.style.fontSize = fontSize + 'px';
         el.style.zIndex = freq * 10;
@@ -537,11 +537,11 @@
 
         cloud.append(el);
 
-        // ÀÓ½Ã Å©±â ÃøÁ¤
+        // ìž„ì‹œ í¬ê¸° ì¸¡ì •
         const w = el.offsetWidth || (word.length * fontSize * 0.7);
         const h = el.offsetHeight || (fontSize * 1.4);
 
-        // ³ª¼±Çü ¹èÄ¡ (¸¹ÀÌ ³ª¿Â ´Ü¾îÀÏ¼ö·Ï Áß¾Ó ¹èÄ¡)
+        // ë‚˜ì„ í˜• ë°°ì¹˜ (ë§Žì´ ë‚˜ì˜¨ ë‹¨ì–´ì¼ìˆ˜ë¡ ì¤‘ì•™ ë°°ì¹˜)
         let angle = idx * 1.4;
         let radius = idx * 12;
         let x = centerX, y = centerY;
@@ -551,11 +551,11 @@
           x = centerX + radius * Math.cos(angle) - w / 2;
           y = centerY + radius * Math.sin(angle) - h / 2;
 
-          // ¿µ¿ª ÀÌÅ» ¹æÁö
+          // ì˜ì—­ ì´íƒˆ ë°©ì§€
           x = Math.max(10, Math.min(cloudWidth - w - 10, x));
           y = Math.max(10, Math.min(cloudHeight - h - 10, y));
 
-          // °ãÄ§ °Ë»ç
+          // ê²¹ì¹¨ ê²€ì‚¬
           let overlap = false;
           for (let p of placed) {
             if (!(x + w + 6 < p.x || x > p.x + p.w + 6 || y + h + 6 < p.y || y > p.y + p.h + 6)) {
@@ -584,7 +584,7 @@
       const list = $('results-list');
       list.replaceChildren();
       
-      $('results-count').textContent = state.records.length + '°³ÀÇ Á¦Ãâ °á°ú';
+      $('results-count').textContent = state.records.length + 'ê°œì˜ ì œì¶œ ê²°ê³¼';
       $('results-empty').style.display = state.records.length === 0 ? 'block' : 'none';
 
       state.records.forEach(row => {
@@ -611,21 +611,21 @@
           <div>
             <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px;">
               <h3 style="font-size:20px; font-weight:800; color:#183f34;">${escapeHtml(row.nickname)}</h3>
-              <span style="font-size:12px; font-weight:700; background:#e8f0dd; color:#28745a; padding:2px 8px; border-radius:6px;">Á¦Ãâ¿Ï·á</span>
+              <span style="font-size:12px; font-weight:700; background:#e8f0dd; color:#28745a; padding:2px 8px; border-radius:6px;">ì œì¶œì™„ë£Œ</span>
             </div>
             <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-bottom:12px; background:#f7faf5; padding:8px; border-radius:12px;">${chainHtml}</div>
-            <p style="font-size:13px; font-weight:700; color:#a54c3e; margin-bottom:6px;">? »ç¶óÁø »ý¹°: ${escapeHtml(row.removed_organism)}</p>
-            <p style="font-size:13px; font-weight:700; color:#28745a; margin-bottom:12px;">? ¿µÇâÀ» ¹ÞÀ» »ý¹°: ${escapeHtml(row.affected_organisms || '¾øÀ½')}</p>
+            <p style="font-size:13px; font-weight:700; color:#a54c3e; margin-bottom:6px;">? ì‚¬ë¼ì§„ ìƒë¬¼: ${escapeHtml(row.removed_organism)}</p>
+            <p style="font-size:13px; font-weight:700; color:#28745a; margin-bottom:12px;">? ì˜í–¥ì„ ë°›ì„ ìƒë¬¼: ${escapeHtml(row.affected_organisms || 'ì—†ìŒ')}</p>
             <div style="border-top:1px solid #e2ecd9; padding-top:10px; margin-bottom:10px;">
-              <p style="font-size:12px; font-weight:800; color:#789284;">¿¹»óÇÑ º¯È­</p>
+              <p style="font-size:12px; font-weight:800; color:#789284;">ì˜ˆìƒí•œ ë³€í™”</p>
               <p style="font-size:14px; font-weight:600; color:#18362e; white-space:pre-wrap;">${escapeHtml(row.prediction)}</p>
             </div>
             <div style="border-top:1px solid #e2ecd9; padding-top:10px;">
-              <p style="font-size:12px; font-weight:800; color:#789284;">±×·¸°Ô »ý°¢ÇÑ ±î´ß</p>
+              <p style="font-size:12px; font-weight:800; color:#789284;">ê·¸ë ‡ê²Œ ìƒê°í•œ ê¹Œë‹­</p>
               <p style="font-size:14px; font-weight:600; color:#18362e; white-space:pre-wrap;">${escapeHtml(row.reason)}</p>
             </div>
           </div>
-          <button type="button" class="pill dark" style="width:100%; margin-top:16px; min-height:40px; font-size:14px;">?? ¹ßÇ¥ È­¸éÀ¸·Î Å©°Ô º¸±â</button>
+          <button type="button" class="pill dark" style="width:100%; margin-top:16px; min-height:40px; font-size:14px;">?? ë°œí‘œ í™”ë©´ìœ¼ë¡œ í¬ê²Œ ë³´ê¸°</button>
         `;
 
         article.querySelector('button').onclick = () => present(row);
@@ -634,8 +634,8 @@
     }
 
     function present(row) {
-      $('presentation-name').textContent = row.nickname + ' ÇÐ»ýÀÇ ¹ßÇ¥';
-      $('presentation-chain-name').textContent = row.chain_name ? '¸ÔÀÌ°ü°è ÀÌ¸§ ¡¤ ' + row.chain_name : '';
+      $('presentation-name').textContent = row.nickname + ' í•™ìƒì˜ ë°œí‘œ';
+      $('presentation-chain-name').textContent = row.chain_name ? 'ë¨¹ì´ê´€ê³„ ì´ë¦„ Â· ' + row.chain_name : '';
       const chainNames = [row.organism1, row.organism2, row.organism3, row.organism4].filter(Boolean);
       renderChain($('presentation-chain'), chainNames, row.removed_organism, false);
       $('presentation-removed').textContent = row.removed_organism \vert{}\vert{} '?';$('presentation-affected').textContent = row.affected_organisms || '?';
@@ -643,7 +643,7 @@
       show('presentation');
     }
 
-    // ·ÎÄÃ ½ºÅä¸®Áö µ¿±âÈ­ ¹× °øÀ¯ ½Ã½ºÅÛ
+    // ë¡œì»¬ ìŠ¤í† ë¦¬ì§€ ë™ê¸°í™” ë° ê³µìœ  ì‹œìŠ¤í…œ
     function loadData() {
       try {
         const savedRecords = localStorage.getItem('eco_records_v4');
@@ -663,12 +663,12 @@
     document.addEventListener('DOMContentLoaded', () => {
       loadData();
 
-      // ÀÌº¥Æ® ¸®½º³Ê ¿¬°á
+      // ì´ë²¤íŠ¸ ë¦¬ìŠ¤ë„ˆ ì—°ê²°
       $('home-link').onclick = () => show('home');$('home-results').onclick = () => { renderResults(); show('results'); };
       $('results-home').onclick = () => show('home');$('home-name-btn').onclick = () => {
         if (!requireNickname()) return;
         if (state.hasSubmittedName) {
-          alert('ÀÌ¹Ì ¸ÔÀÌ°ü°è ÀÌ¸§À» Á¦ÃâÇÏ¼Ì½À´Ï´Ù!');
+          alert('ì´ë¯¸ ë¨¹ì´ê´€ê³„ ì´ë¦„ì„ ì œì¶œí•˜ì…¨ìŠµë‹ˆë‹¤!');
         }
         renderNameCloud();
         show('naming');
@@ -684,11 +684,11 @@
       gallery.forEach(card => card.onclick = () => {
         const name = card.dataset.organism;
         if (state.chain.includes(name)) {
-          $('build-message').textContent = 'ÀÌ¹Ì ³ÖÀº »ý¹°ÀÌ¿¡¿ä. ¼ø¼­¸¦ ¹Ù²Ù°Å³ª »èÁ¦ÇÒ ¼ö ÀÖ¾î¿ä.';
+          $('build-message').textContent = 'ì´ë¯¸ ë„£ì€ ìƒë¬¼ì´ì—ìš”. ìˆœì„œë¥¼ ë°”ê¾¸ê±°ë‚˜ ì‚­ì œí•  ìˆ˜ ìžˆì–´ìš”.';
           return;
         }
         if (state.chain.length >= 4) {
-          $('build-message').textContent = '¸ÔÀÌ°ü°è¿¡´Â »ý¹°À» ÃÖ´ë 4°³±îÁö ³ÖÀ» ¼ö ÀÖ¾î¿ä.';
+          $('build-message').textContent = 'ë¨¹ì´ê´€ê³„ì—ëŠ” ìƒë¬¼ì„ ìµœëŒ€ 4ê°œê¹Œì§€ ë„£ì„ ìˆ˜ ìžˆì–´ìš”.';
           return;
         }
         state.chain.push(name);
@@ -705,7 +705,7 @@
       };
       $('build-next').onclick = () => {
         if (state.chain.length < 3) {
-          $('build-message').textContent = '»ý¹°À» ÃÖ¼Ò 3°³ ÀÌ»ó ¼±ÅÃÇØ ÁÖ¼¼¿ä.';
+          $('build-message').textContent = 'ìƒë¬¼ì„ ìµœì†Œ 3ê°œ ì´ìƒ ì„ íƒí•´ ì£¼ì„¸ìš”.';
           return;
         }
         renderRemove();
@@ -715,7 +715,7 @@
       $('remove-back').onclick = () => show('build');
       $('choose-again').onclick = () => { state.removed = null; renderRemove(); };$('remove-next').onclick = () => {
         if (!state.removed) {
-          $('remove-message').textContent = '»ç¶óÁú »ý¹°À» ÇÏ³ª ¼±ÅÃÇØ ÁÖ¼¼¿ä.';
+          $('remove-message').textContent = 'ì‚¬ë¼ì§ˆ ìƒë¬¼ì„ í•˜ë‚˜ ì„ íƒí•´ ì£¼ì„¸ìš”.';
           return;
         }
         renderPredict();
@@ -725,12 +725,12 @@
       $('predict-back').onclick = () => show('remove');
       $('presentation-back').onclick = () => { renderResults(); show('results'); };$('view-results-after-submit').onclick = () => { renderResults(); show('results'); };
 
-      // ÀÌ¸§ Á¦Ãâ Æû
+      // ì´ë¦„ ì œì¶œ í¼
       $('naming-form').onsubmit = (e) => {
         e.preventDefault();
         if (!requireNickname()) return;
         if (state.hasSubmittedName) {
-          $('name-message').textContent = 'ÀÌ¸§Àº ÇÑ ¹ø¸¸ Á¦ÃâÇÒ ¼ö ÀÖ½À´Ï´Ù!';
+          $('name-message').textContent = 'ì´ë¦„ì€ í•œ ë²ˆë§Œ ì œì¶œí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤!';
           return;
         }
         const val = $('chain-name').value.trim();
@@ -747,18 +747,18 @@
         $('chain-name').value = '';$('chain-name').disabled = true;
         $('save-name').disabled = true;
         $('name-message').style.color = '#28745a';
-        $('name-message').textContent = 'Á¦ÃâµÇ¾ú½À´Ï´Ù! °øÅë ´Ü¾î Å¬¶ó¿ìµå¿¡ ¹Ý¿µµÇ¾ú½À´Ï´Ù.';
+        $('name-message').textContent = 'ì œì¶œë˜ì—ˆìŠµë‹ˆë‹¤! ê³µí†µ ë‹¨ì–´ í´ë¼ìš°ë“œì— ë°˜ì˜ë˜ì—ˆìŠµë‹ˆë‹¤.';
         renderNameCloud();
       };
 
-      // ¿¹Ãø °á°ú Á¦Ãâ Æû
+      // ì˜ˆì¸¡ ê²°ê³¼ ì œì¶œ í¼
       $('submit-result').onclick = () => {
         const nickname = $('nickname').value.trim();
         const prediction = $('prediction').value.trim();
         const reason = $('reason').value.trim();
         
         if (!nickname || state.chain.length < 3 || !state.removed || !prediction || !reason) {
-          $('submit-message').textContent = '¸ðµç Ç×¸ñÀ» ¿Ã¹Ù¸£°Ô ÀÛ¼ºÇØ ÁÖ¼¼¿ä!';
+          $('submit-message').textContent = 'ëª¨ë“  í•­ëª©ì„ ì˜¬ë°”ë¥´ê²Œ ìž‘ì„±í•´ ì£¼ì„¸ìš”!';
           return;
         }
 
@@ -780,7 +780,7 @@
         saveData();
 
         $('submit-message').style.color = '#28745a';
-        $('submit-message').textContent = '°á°ú°¡ ¾ÈÀüÇÏ°Ô Á¦ÃâµÇ¾ú½À´Ï´Ù!';
+        $('submit-message').textContent = 'ê²°ê³¼ê°€ ì•ˆì „í•˜ê²Œ ì œì¶œë˜ì—ˆìŠµë‹ˆë‹¤!';
         $('submit-result').disabled = true;
         $('submit-notice').hidden = false;
         $('view-results-after-submit').hidden = false;
